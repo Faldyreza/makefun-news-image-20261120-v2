@@ -388,26 +388,26 @@ function drawChips(): void {
 
 function drawRiyadh(): void {
   panel(12, 648, 508, 832);
-  drawText(28, 660, "RIYADH", 20, GOLD);
+  drawText(28, 660, "RIYADH · 80 FLOORS", 20, GOLD);
   drawText(28, 688, "MISSILE HITS", 29, WHITE);
   drawText(28, 722, "RIYADH'S", 29, WHITE);
   drawText(28, 756, "TALLEST TOWER", 29, WHITE);
   drawText(28, 790, "HOUTHI MISSILE DAMAGES PIF", 16, MUTED);
   drawText(28, 811, "TOWER — 7–8 FLOORS HIT. NO INJURIES", 16, MUTED);
   // PIF Tower (80 floors): tapered slab, impact band near the top
-  fillTriangle(434, 716, 490, 716, 500, 802, [42, 56, 92]);
-  fillTriangle(434, 716, 500, 802, 424, 802, [42, 56, 92]);
-  fillRect(428, 712, 496, 726, [20, 10, 14]); // impact band
+  fillTriangle(430, 700, 494, 700, 504, 806, [42, 56, 92]);
+  fillTriangle(430, 700, 504, 806, 418, 806, [42, 56, 92]);
+  fillRect(424, 696, 500, 710, [20, 10, 14]); // impact band
   // lit windows
-  for (let wy = 736; wy <= 792; wy += 14) {
-    for (let wx = 438; wx <= 486; wx += 12) {
+  for (let wy = 724; wy <= 796; wy += 14) {
+    for (let wx = 434; wx <= 490; wx += 12) {
       const lit = (wx * 7 + wy * 3) % 5 !== 0;
       fillDisc(wx, wy, 1.8, lit ? GOLD : [120, 130, 155], 1);
     }
   }
   // warm glow at the impact point
-  softBlob(462, 719, 18, [255, 150, 50], 0.9);
-  fillDisc(462, 719, 6, [255, 190, 90], 1);
+  softBlob(462, 703, 18, [255, 150, 50], 0.9);
+  fillDisc(462, 703, 6, [255, 190, 90], 1);
   // BIG layered smoke plume: 5 overlapping translucent blobs, drifting left
   softBlob(452, 706, 24, [150, 160, 175], 0.9);
   softBlob(428, 688, 28, [145, 154, 170], 0.9);
