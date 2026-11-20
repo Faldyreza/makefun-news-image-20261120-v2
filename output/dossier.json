@@ -1,0 +1,18 @@
+{
+  "title": "RED FRIDAY, SHARP",
+  "bounty": "news-image-20261120",
+  "version": "v2",
+  "date": "2026-11-20",
+  "width": 1024,
+  "height": 1024,
+  "bytes": 138690,
+  "sha256": "227663dbacd286653e4b7049fa04f25d850115233c5da895397e8215d7495389",
+  "stories": [
+    "LEAD: global AI sell-off — Nikkei -4.8% to 56,594.94, Kospi -5.2%, Taiex -6%; Anthropic $81.3bn IPO (+17% to $97.17); Nasdaq -2.3%, S&P 500 -2%, fifth straight fall",
+    "Riyadh: Houthi missile damages PIF Tower (80 floors, 7-8 floors hit, no injuries)",
+    "COP31: draft drops fossil-fuel phase-out (Antalya)",
+    "Gaza: Israeli forces cross Yellow Line (first incursion since truce)",
+    "Kenya: last Ebola patient discharged (37 days after first case)",
+    "UK 1,000+ drones for Ukraine, £260m; California subpoenas Nvidia; Bukele third term; Trump pardons Pete Rose; Brent $92.77"
+  ]
+}
